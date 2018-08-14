@@ -1,0 +1,44 @@
+ .grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  width: calc(100% / 4);
+  margin: 2px;
+  border: 1px solid red;
+}
+
+.padded-container {
+  height: 0;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 14.0625%;
+}
+
+.img-horiz {
+  width: 100%;
+  height: auto;
+}
+
+.img-vert {
+  width: auto;
+  height: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  margin: auto;
+}
+
+hr.style-four {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  margin: 50px 0;
+}
+
